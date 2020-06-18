@@ -1,12 +1,17 @@
 import React from 'react';
-import './Button.css';
+import styled from 'styled-components'
+
+const ButtonStyle = styled.button`
+    background-color: green;
+    color: white
+`;
 
 const Button = () => {
   return (
     <>
-      <button className="error">Button 3</button>
+      <ButtonStyle>Button 4</ButtonStyle>
     </>
   )
-}
+};
 
 export default Button
