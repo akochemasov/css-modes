@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Button1 from './components/Button1/Button';
-import Button2 from './components/Button2/Button';
+import Button2 from './components/Button2/Button2';
 import Button3 from './components/Button3/Button';
 import Button4 from './components/Button4/Button';
 
