@@ -1,10 +1,25 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
 
-//todo: улулчшить читабельность
+const getButtonStyles = ({type}) => {
+    switch (type) {
+        case 'error':
+            return css`
+                color: red;
+            `;
+
+        case 'message':
+            return css`
+                background-color: gray;
+            `;
+
+        default:
+          break;
+    }
+};
+
 const ButtonStyle = styled.button`
-    background-color: green;    
-    margin: 10px;
+    background-color: green;
     
     /* The GitHub button is a primary button
     * edit this to target it specifically! */
@@ -13,14 +28,17 @@ const ButtonStyle = styled.button`
         color: black;
     `}
     
+    ${getButtonStyles}
+    
     1: 1        /* todo: проект соберется */ 
-    color: white;
+    
+    color: white; /* стиль не применится, из-за ошибки выше */    
 `;
 
 const Button = (props) => {
   return (
     <>
-      <ButtonStyle primary={props.primary}>Button 4</ButtonStyle>
+      <ButtonStyle primary={props.primary} type={props.type}>Button 4</ButtonStyle>
     </>
   )
 };

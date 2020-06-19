@@ -11,8 +11,8 @@ function App() {
       <Button1 diff={'modules'} />
       <Button2 diff={'modules'} />
       <Button3 diff={'css'} />
-      <Button4 diff={'styled-components'} />
-      <Button4 primary diff={'styled-components'} />
+      <Button4 type={'message'} diff={'styled-components'} />
+      <Button4 primary type={'error'} diff={'styled-components'} />
     </div>
   );
 }
