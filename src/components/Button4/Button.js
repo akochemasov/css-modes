@@ -32,7 +32,7 @@ const ButtonStyle = styled.button`
     
     1: 1        /* todo: проект соберется */ 
     
-    color: white; /* стиль не применится, из-за ошибки выше */    
+    color: white; /* стиль не применится, из-за ошибки выше */
 `;
 
 const Button = (props) => {
