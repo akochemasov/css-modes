@@ -36,7 +36,7 @@ const ButtonStyle = styled.button`
     color: blue;  /* этот стиль применится */        
 `;
 
-const Button = (props) => {
+const ButtonStyledComponent = (props) => {
   return (
     <>
       <ButtonStyle primary={props.primary} type={props.type}>Button Styled Component</ButtonStyle>
@@ -44,4 +44,4 @@ const Button = (props) => {
   )
 };
 
-export default Button
+export default ButtonStyledComponent

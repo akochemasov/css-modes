@@ -15,7 +15,7 @@ const Container = styled.div(props => ({
     border: props.border && '1px solid green'
 }));
 
-const Button = (props) => {
+const ButtonEmotion = () => {
   return (
     <Container border>
         <ButtonStyle color={'white'}>Button Emotion</ButtonStyle>
@@ -23,4 +23,4 @@ const Button = (props) => {
   )
 };
 
-export default Button
+export default ButtonEmotion

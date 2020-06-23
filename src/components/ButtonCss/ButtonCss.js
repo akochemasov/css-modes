@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const Button = () => {
+const ButtonCss = () => {
   return (
     <>
       <button className="error">Button Css</button>
     </>
   )
-}
+};
 
-export default Button
+export default ButtonCss

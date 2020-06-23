@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = () => {
+const ButtonSsModules = () => {
   return (
     <>
       <button className={styles.error}>Button Modules</button>
     </>
   )
-}
+};
 
-export default Button
+export default ButtonSsModules
