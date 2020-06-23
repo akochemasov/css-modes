@@ -30,7 +30,7 @@ const ButtonStyle = styled.button`
     
     ${getButtonStyles}
     
-    1: 1        /* todo: проект соберется */ 
+    1 22        /* todo: проект соберется и попадут в css */ 
         
     color: white; /* стиль не применится, из-за ошибки выше */
     color: blue;  /* этот стиль применится */        
