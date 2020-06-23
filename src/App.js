@@ -7,7 +7,7 @@ import ButtonEmotion from './components/ButtonEmotion/ButtonEmotion';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <ButtonCss diff={'cs1s'}/>
       <ButtonСssModules diff={'modules'}/>
       <ButtonCss diff={'cs1s'}/>
