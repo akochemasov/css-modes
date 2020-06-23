@@ -31,8 +31,9 @@ const ButtonStyle = styled.button`
     ${getButtonStyles}
     
     1: 1        /* todo: проект соберется */ 
-    
+        
     color: white; /* стиль не применится, из-за ошибки выше */
+    color: blue;  /* этот стиль применится */        
 `;
 
 const Button = (props) => {
