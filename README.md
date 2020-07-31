@@ -12,10 +12,10 @@ npm start
 ## Обычный css
 
 ### Плюсы
-- если в css ошибки, проект не соберется
+- 
 
 ### Минусы
-- ...
+- следить за уникальностью названий классов
 
 ## Css modules
 https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/  
