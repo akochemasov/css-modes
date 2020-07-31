@@ -21,17 +21,18 @@ npm start
 https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/  
 
 ### Плюсы
-- если в css ошибки, проект не соберется
+- изолированность стилей
+- подстановка названий стилей в коде
 
 ### Минусы
-- ...
+- если в css ошибки, проект не соберется
 
 ## StyledComponent
 https://styled-components.com/  
 https://habr.com/ru/post/417707/  
 
 ### Плюсы
-- 
+- ...
 
 ## Минусы
 - если в css ошибки, то проект соберется и попадут в стили
